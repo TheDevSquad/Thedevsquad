@@ -1,6 +1,23 @@
+.header {
+  background-color: black;
+  height: 120px;
+  vertical-align: middle;
+}
 h1 {
-  text-align: center;
   text-shadow: 1px 1px 2px black;
+  color: white;
+}
+h1, h2, h3 {
+    display: inline;
+	  font-family: Tahoma, Arial, sans-serif;
+    text-shadow: 1px 1px 0px #000000;
+    filter: dropshadow(color=#000000, offx=1, offy=1);
+}
+.spacer {
+  color: #808080;
+}
+.text {
+  color: #808080;
 }
 ul {
   list-style-type: none;
@@ -23,11 +40,33 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #808080;
 }
 .active {
-    background-color: #4CAF50;
+    background-color: rgb(96, 103, 140);
 }
 a{
   font: 16px Tahoma, Geneva, sans-serif;
+}
+@keyframes alert {
+    0%   { text-indent: 430px }
+    100% { text-indent: -485px }
+}
+
+@-webkit-keyframes alert {
+    0%   { text-indent: 430px }
+    100% { text-indent: -485px }
+}
+
+.alert {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: alert 17s linear infinite;
+    -webkit-animation: alert 17s linear infinite;
+    color: red;
+}
+
+.alert:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
 }
