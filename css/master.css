@@ -1,17 +1,30 @@
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}
 .header {
   background-color: black;
   height: 120px;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
-h1 {
+.header p{
+  margin: 0;
+  float: right;
+  position: relative;
+  right: -50%;
+}
+.header h1{
   text-shadow: 1px 1px 2px black;
   color: white;
 }
-h1, h2, h3 {
-    display: inline;
-	  font-family: Tahoma, Arial, sans-serif;
-    text-shadow: 1px 1px 0px #000000;
-    filter: dropshadow(color=#000000, offx=1, offy=1);
+
+h1, h2, h3, p{
+  margin: 0;
+  display: inline;
+  filter: dropshadow(color=#000000, offx=1, offy=1);
 }
 .spacer {
   color: #808080;
@@ -26,7 +39,9 @@ ul {
   overflow: hidden;
   background-color: #333;
 }
-
+nav ul {
+  margin-bottom: 0;
+}
 li {
   float: left;
 }
@@ -48,25 +63,29 @@ li a:hover {
 a{
   font: 16px Tahoma, Geneva, sans-serif;
 }
-@keyframes alert {
-    0%   { text-indent: 430px }
-    100% { text-indent: -485px }
+.marquee {
+  margin: 0;
+  width: 100%;
+  line-height: 20px;
+  background-color: red;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
 }
-
-@-webkit-keyframes alert {
-    0%   { text-indent: 430px }
-    100% { text-indent: -485px }
+.marquee h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 30s linear infinite;
 }
-
-.alert {
-    overflow: hidden;
-    white-space: nowrap;
-    animation: alert 17s linear infinite;
-    -webkit-animation: alert 17s linear infinite;
-    color: red;
+@keyframes marquee {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
 }
-
-.alert:hover {
-    -webkit-animation-play-state: paused;
-    animation-play-state: paused;
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
 }
