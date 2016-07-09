@@ -89,3 +89,25 @@ a{
   width: 70%;
   margin: auto;
 }
+.top{
+  background-color: cyan;
+  border: 2px solid black;
+}
+.left-column {
+float:left;
+width:30%;
+background-color:red;
+}
+.right-column {
+float:right;
+width:30%;
+background-color:green;
+}
+.center-column {
+margin:auto;
+width:30%;
+background-color:blue;
+}
+.center-column, .right-column, .left-column{
+  border: 2px dashed black;
+}
