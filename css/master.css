@@ -110,4 +110,5 @@ background-color:blue;
 }
 .center-column, .right-column, .left-column{
   border: 2px dashed black;
+  text-align: center;
 }
