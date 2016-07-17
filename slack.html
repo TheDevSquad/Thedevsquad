@@ -1,31 +1,73 @@
 <!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title> TheDevSquad | Home </title>
-    <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="js/mobile.js"></script>
-  </head>
-  <body>
-    <div class="header">
-      <h1>TheDevSquad </h1><h3 class="spacer">|</h3><h3 class="text">We make it, You use it</h3>
-      <p><input type="text" name="search" value="search"/><input type="button" name="submit" value="submit"/></p>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="http://thedevsquad.tech">Home</a></li>
-        <li><a href="http://users.thedevsquad.tech">The Team</a></li>
-        <li><a href="http://contact.thedevsquad.tech">Contact</a></li>
-        <li><a href="http://slack.thedevsquad.tech">Slack</a></li>
-        <li><a href="http://news.thedevsquad.tech">News</a></li>
-        <li><a href="http://projects.thedevsquad.tech">Projects</a></li>
-      </ul>
-    </nav>
-    <div class="body">
-      <h1>Filler page used for making new pages</h1>
-    <div>
-  </body>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
+	<!--[if lte IE 7]>
+		<link rel="stylesheet" href="css/ie.css" type="text/css" charset="utf-8" />
+	<![endif]-->
+</head>
+
+<body>
+	<div id="header">
+		<a href="index.html" id="logo"><img src="images/logo.jpg" alt="LOGO" /></a>
+		<div id="navigation">
+			<ul>
+				<li class="first"><a href="index.html">Home</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="solutions.html">Solutions</a></li>
+				<li class="selected"><a href="support.html">Support</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div id="search">
+			<form action="" method="">
+				<input type="text" value="Search" class="txtfield" onblur="javascript:if(this.value==''){this.value=this.defaultValue;}" onfocus="javascript:if(this.value==this.defaultValue){this.value='';}" />
+				<input type="submit" value="" class="button" />
+			</form>
+		</div>
+	</div> <!-- /#header -->
+	<div id="contents">
+		<div class="background">
+			<div id="support">
+				<ul>
+					<li>
+						<span>Join our community and watch it grow!</span>
+						<p>
+							Join our slack commuity an talk about your ideas and share your code.
+							This way you help us and we give you credit its win win deal ill take it!.
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div> <!-- /#contents -->
+	<div id="footer">
+		<ul class="contacts">
+			<h3>Contact Us</h3>
+			<li><span>Email</span><p>: Xerodragon72@gmail.com</p></li>
+			<li><span>Phone</span><p>: 1(647) 874-5383</p></li>
+		</ul>
+		<ul id="connect">
+			<h3>Get Updated</h3>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="#" target="_blank">Facebook</a></li>
+			<li><a href="#" target="_blank">Twitter</a></li>
+		</ul>
+		<div id="newsletter">
+			<p><b>Sign-up for Newsletter</b>
+				To keep up todate on all the new fetures added to any of our projects.
+			</p>
+			<form action="" method="">
+				<input type="text" value="Name" class="txtfield" onblur="javascript:if(this.value==''){this.value=this.defaultValue;}" onfocus="javascript:if(this.value==this.defaultValue){this.value='';}" />
+				<input type="text" value="Enter Email Address" class="txtfield" onblur="javascript:if(this.value==''){this.value=this.defaultValue;}" onfocus="javascript:if(this.value==this.defaultValue){this.value='';}" />
+				<input type="submit" value="" class="button" />
+			</form>
+		</div>
+		<span class="footnote">&copy; Projects Copyright TheDevSquad 2016. All rights reserved</span>
+	</div> <!-- /#footer -->
+</body>
 </html>
