@@ -3,7 +3,7 @@ html {
 	font-family: Arial, Helvetica, sans-serif;
 }
 body {
-	background-color: #0c2635; 
+	background-color: #0c2635;
 	margin: 0;
 }
 img {
@@ -51,7 +51,7 @@ img {
 }
 #navigation li.first {
 	margin-left: 0;
-	
+
 }
 #navigation li.selected {
 	background-color: #b7c2c8;
@@ -106,47 +106,47 @@ img {
 	padding: 0;
 }
 
-/** Adbox **/
-#adbox {
+/** mainbox **/
+#mainbox {
 	background-color: #ffffff;
 	height: 340px;
 	padding: 20px 0 0;
 }
-#adbox p {
+#mainbox p {
 	margin: 0;
 }
-#adbox .body {
+#mainbox .body {
 	width: 960px;
 	margin: 0 auto 0;
 }
-#adbox div.images {
+#mainbox div.images {
 	float: right;
 	display: inline-block;
 	height: 281px;
 	width: 710px;
 	overflow: hidden;
 }
-#adbox div.images img.preview {
+#mainbox div.images img.preview {
 	float: left;
 	margin-right: 2px;
 }
-#adbox div.images img.last {
+#mainbox div.images img.last {
 	position: relative;
 	top: -2px;
 }
-#adbox .details {
+#mainbox .details {
 	color: #2f2f2f;
 	height: 200px;
 	width: 200px;
 	padding: 40px 20px 40px 10px;
 }
-#adbox .details p {
+#mainbox .details p {
 	color: #646c6f;
 	font-size: 14px;
 	line-height: 20px;
 	text-align: justify;
 }
-#adbox .details p span {
+#mainbox .details p span {
 	color: #073f5a;
 	display: block;
 	font-size: 16px;
@@ -154,18 +154,18 @@ img {
 	padding: 0 0 20px;
 	text-align: center;
 }
-#adbox .details p span a {
+#mainbox .details p span a {
 	color: #073f5a;
 	font-weight: bold;
 	text-decoration: none;
 }
-#adbox .footer {
+#mainbox .footer {
 	height: 46px;
 	width: 960px;
 	margin: 0 auto;
 	position: relative;
 }
-#adbox div.footer ul {
+#mainbox div.footer ul {
 	background-color: #dcdcdc;
 	display: inline-block;
 	width: 960px;
@@ -176,35 +176,35 @@ img {
 	position: absolute;
 	bottom: -80px;
 }
-#adbox div.footer ul li {
+#mainbox div.footer ul li {
 	float: left;
 	width: 280px;
 	padding: 20px 20px 18px;
 }
-#adbox div.footer ul li img {
+#mainbox div.footer ul li img {
 	float: left;
 	margin-right: 10px;
 }
-#adbox div.footer ul li p {
+#mainbox div.footer ul li p {
 	color: #363636;
 	font-size: 14px;
 	height: 88px;
 	line-height: 20px;
 	margin: 0;
 }
-#adbox div.footer ul li p a {
+#mainbox div.footer ul li p a {
 	color: #010101;
 	font-weight: bold;
 	text-decoration: none;
 }
-#adbox div.footer ul li.selected {
+#mainbox div.footer ul li.selected {
 	background-color: #e9f1f4;
 	border-radius: 3px;
 }
-#adbox div.footer ul li.selected p, #adbox div.footer ul li.selected p a {
+#mainbox div.footer ul li.selected p, #mainbox div.footer ul li.selected p a {
 	color: #5c6164;
 }
-#adbox div.footer span.bottom-shadow {
+#mainbox div.footer span.bottom-shadow {
 	background: url(../images/bottom-shadow.gif) no-repeat left top;
 	display: block;
 	height: 20px;
